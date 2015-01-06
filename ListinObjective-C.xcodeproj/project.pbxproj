@@ -15,6 +15,7 @@
 		CACB67BD1A54A5DA00ECBAF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACB67BC1A54A5DA00ECBAF7 /* Images.xcassets */; };
 		CACB67C01A54A5DA00ECBAF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACB67BE1A54A5DA00ECBAF7 /* LaunchScreen.xib */; };
 		CACB67CC1A54A5DA00ECBAF7 /* ListinObjective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB67CB1A54A5DA00ECBAF7 /* ListinObjective_CTests.m */; };
+		CACB67D71A54A99B00ECBAF7 /* SHCToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB67D61A54A99B00ECBAF7 /* SHCToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CACB67C51A54A5DA00ECBAF7 /* ListinObjective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ListinObjective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB67CA1A54A5DA00ECBAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACB67CB1A54A5DA00ECBAF7 /* ListinObjective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListinObjective_CTests.m; sourceTree = "<group>"; };
+		CACB67D51A54A99B00ECBAF7 /* SHCToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCToDoItem.h; path = ../SHCToDoItem.h; sourceTree = "<group>"; };
+		CACB67D61A54A99B00ECBAF7 /* SHCToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCToDoItem.m; path = ../SHCToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				CACB67B11A54A5D900ECBAF7 /* AppDelegate.m */,
 				CACB67B61A54A5D900ECBAF7 /* ViewController.h */,
 				CACB67B71A54A5DA00ECBAF7 /* ViewController.m */,
+				CACB67D51A54A99B00ECBAF7 /* SHCToDoItem.h */,
+				CACB67D61A54A99B00ECBAF7 /* SHCToDoItem.m */,
 				CACB67B91A54A5DA00ECBAF7 /* Main.storyboard */,
 				CACB67BC1A54A5DA00ECBAF7 /* Images.xcassets */,
 				CACB67BE1A54A5DA00ECBAF7 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CACB67B21A54A5D900ECBAF7 /* AppDelegate.m in Sources */,
+				CACB67D71A54A99B00ECBAF7 /* SHCToDoItem.m in Sources */,
 				CACB67B51A54A5D900ECBAF7 /* ListinObjective_C.xcdatamodeld in Sources */,
 				CACB67B81A54A5DA00ECBAF7 /* ViewController.m in Sources */,
 				CACB67AF1A54A5D900ECBAF7 /* main.m in Sources */,
