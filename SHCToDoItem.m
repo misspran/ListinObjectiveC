@@ -9,5 +9,11 @@
 #import "SHCToDoItem.h"
 
 @implementation SHCToDoItem
+- (id)initWithText: (NSString *) text{
+    if(self = [super init]){
+        self.text = text;
+    }
+    return self;
+}
 
 @end

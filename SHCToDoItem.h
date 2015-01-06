@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface SHCToDoItem : NSObject
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic) BOOL completed;
 
+- (id)initWithText: (NSString *) text;
+
++(id)toDoItemWithText: (NSString *) text;
 @end
+
+
+
